@@ -1,5 +1,12 @@
+import { Fragment } from "react";
+
 function Greeting(props) {
-  return <h1>Hello, {props.name } {props.surname}!</h1>;
+  return (
+    <Fragment>
+      <h1>Hello, {props.name} {props.surname}!</h1>
+      <h2>this text was not there</h2>
+    </Fragment>
+  );
 }
 
-export default Greeting;g
+export default Greeting;
