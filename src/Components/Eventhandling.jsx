@@ -7,11 +7,9 @@ function EventHandling() {
   };
 
   return (
-    <div style={{ padding: '20px', border: '2px solid #3310d1', marginTop: '20px', borderRadius: '8px' }}>
+    <div style ={{backgroundColor: "red"}}>
       <h2>1. Tijaabada onClick</h2>
       <p>Marka aad riixdo badhanka hoose, waxaa kuu soo baxaya fariin (Alert).</p>
-      
-      {/* Badhanka ku xiran onClick */}
       <button onClick={badhankaLaGujiye}>cilick</button>
     </div>
   );
